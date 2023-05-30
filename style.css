@@ -1,0 +1,228 @@
+html {
+  background-image: linear-gradient(#fc5e55, #fa4049);
+}
+body {
+  background-color: #ef5e55;
+  background-image: url(img/image-lion-background.png);
+  background-position: topcenter;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 1.25rem;
+}
+.container {
+  width: 1024px;
+  min-height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+.main2 {
+  min-height: 300px;
+  padding-top: 10px;
+}
+
+.main2 form {
+  display: inline;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.card1 {
+  background-image: url(img/image-background-card1.jpg);
+  background-size: cover;
+  min-height: 250px;
+  background-position: bottom;
+  width: 30%;
+}
+
+.card2 {
+  background-image: url(img/image-background-card2.jpg);
+  background-size: cover;
+  min-height: 250px;
+  background-position: bottom;
+  width: 30%;
+}
+.card3 {
+  background-image: url(img/image-background-card3.jpg);
+  background-size: cover;
+  min-height: 250px;
+  background-position: bottom;
+  width: 30%;
+}
+.herobox1 {
+  width: 50%;
+  padding-right: 100px;
+
+  flex: 2;
+}
+.herobox2 {
+  width: 50%;
+
+  flex: 1;
+}
+header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: #cccc 1px solid;
+}
+
+nav {
+  display: flex;
+
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.25rem;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 1rem;
+}
+p {
+  line-height: 1.5rem;
+  margin-bottom: 0.1rem;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+}
+
+.cards p {
+  font-size: 0.85rem;
+  line-height: 1.2rem;
+}
+.cards i {
+  font-size: 70px;
+}
+.cards a {
+  text-decoration: none;
+  color: white;
+}
+
+.card1,
+.card2,
+.card3 {
+  padding: 30px 30px 20px 30px;
+  box-sizing: border-box;
+}
+
+.myButton {
+  background-color: white;
+  text-decoration: none;
+  display: inline-block;
+  color: #ef5e55;
+  font-family: "Playfair Display", serif;
+  padding: 11px 25px 11px 25px;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+}
+
+a.myButton {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.myButton:hover {
+  background-color: aquamarine;
+  transition-duration: 1s;
+}
+.myButtonNav {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  margin-left: 20px;
+  padding: 11px 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  font-family: "Playfair Display", serif;
+  position: relative;
+}
+.myButtonNav a {
+  text-decoration: none;
+  text-decoration: none;
+  color: white;
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+.tbox {
+  width: 47%;
+  padding: 50px;
+  border: 1px white solid;
+  box-sizing: border-box;
+  margin-top: 50px;
+}
+
+.tbox:first-child {
+  color: black;
+}
+.dropdown {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.myButtonNav:hover .dropdown {
+  display: block;
+}
+.dropdown .myButtonNav {
+  width: 120px;
+  background-color: rgb(246, 246, 245);
+  text-decoration: none;
+  color: rgb(5, 5, 5);
+}
+
+.dropdown .myButtonNav a {
+  width: 120px;
+  color: #ef5e55;
+  text-decoration: none;
+}
+.inputwrapper {
+  margin-top: 20px;
+}
+
+input[type="text"],
+[type="email"],
+textarea {
+  padding: 12px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 0.85rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.newline {
+  display: block;
+  padding-bottom: 10px;
+}
+.margin-right-a {
+  margin-right: 20px;
+}
+
+input [type="radio"] {
+  margin-right: 10px;
+}
+form {
+  margin: 40px 0px;
+}
